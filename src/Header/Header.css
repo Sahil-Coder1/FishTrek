@@ -1,0 +1,22 @@
+.hoverEffect {
+    position: relative; /* Needed for positioning the pseudo-element */
+    cursor: pointer;
+    list-style: none;
+}
+
+.hoverEffect::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; /* Start with no width */
+    height: 3px; /* Adjust the height of the border */
+    background-color: #E0EDFBff; /* The color of the border */
+    transition: width 0.3s ease; /* Animate the width on hover */
+    border-radius: 20px;
+}
+
+.hoverEffect:hover::before {
+    width: 100%; /* Expand the width to full on hover */
+    color: #E0EDFBff;
+}
