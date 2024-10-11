@@ -10,8 +10,10 @@ const Header = () => {
                     <img src={logo} alt="logo" className="p-2"/>
                     <p className="min-h-full content-center px-2 text-alice-blue font-bold text-2xl">FishTrek</p>
                 </div>
-                <div className="flex right-0 absolute top-0 p-2 w-1/2 ">
-                <img src={ham} alt="logo" className="absolute right-0 top-0 bg-powder-blue content-center"/>
+                <div className="flex right-0 absolute top-0 p-2 w-1/2">
+                <div className='p-2 min-h-full w-14 right-0  top-0 absolute lg:hidden'>
+                <img src={ham} alt="logo" className="pt-1"/>
+                </div>
                     <ul type='none' className="lg:flex p-2 w-full justify-evenly text-powder-blue font-bold hidden ">
                         <li className='hoverEffect'>Fishes</li>
                         <li className='hoverEffect'>Locations</li>
