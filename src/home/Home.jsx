@@ -18,8 +18,8 @@ return(
 <li className="text-2xl">Rohu</li>
 <li className="text-2xl">Hilsa</li>
 <li className="text-2xl">Calsa</li>
-<li className="text-2xl">Rohu</li>
-<li className="text-2xl">Rohu</li>
+<li className="text-2xl">Pomfret</li>
+<li className="text-2xl">Surmai</li>
 </ul>
 </div>
    
