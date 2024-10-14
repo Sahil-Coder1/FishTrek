@@ -13,7 +13,18 @@ return(
     </div>
     <div>
 <div className="bg-powder-blue rounded-3xl w-4/5 p-5 mx-auto">
-    <p className="text-2xl">Top 5 fishes</p>
+    <p className="text-2xl">Top 5 Fishes</p>
+    <ul type='none'>
+<li className="text-2xl">Rohu</li>
+<li className="text-2xl">Hilsa</li>
+<li className="text-2xl">Calsa</li>
+<li className="text-2xl">Pomfret</li>
+<li className="text-2xl">Surmai</li>
+</ul>
+</div>
+<br/>
+<div className="bg-powder-blue rounded-3xl w-4/5 p-5 mx-auto">
+    <p className="text-2xl">Top 5 Fishes</p>
     <ul type='none'>
 <li className="text-2xl">Rohu</li>
 <li className="text-2xl">Hilsa</li>
